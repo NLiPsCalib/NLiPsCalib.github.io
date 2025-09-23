@@ -187,54 +187,6 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-<!--  <div class="more-works-container">-->
-<!--    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">-->
-<!--      <i class="fas fa-flask"></i>-->
-<!--      More Works-->
-<!--      <i class="fas fa-chevron-down dropdown-arrow"></i>-->
-<!--    </button>-->
-<!--    <div class="more-works-dropdown" id="moreWorksDropdown">-->
-<!--      <div class="dropdown-header">-->
-<!--        <h4>More Works from Our Lab</h4>-->
-<!--        <button class="close-btn" onclick="toggleMoreWorks()">-->
-<!--          <i class="fas fa-times"></i>-->
-<!--        </button>-->
-<!--      </div>-->
-<!--      <div class="works-list">-->
-<!--        &lt;!&ndash; TODO: Replace with your lab's related works &ndash;&gt;-->
-<!--        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">-->
-<!--          <div class="work-info">-->
-<!--            &lt;!&ndash; TODO: Replace with actual paper title &ndash;&gt;-->
-<!--            <h5>Paper Title 1</h5>-->
-<!--            &lt;!&ndash; TODO: Replace with brief description &ndash;&gt;-->
-<!--            <p>Brief description of the work and its main contribution.</p>-->
-<!--            &lt;!&ndash; TODO: Replace with venue and year &ndash;&gt;-->
-<!--            <span class="work-venue">Conference/Journal 2024</span>-->
-<!--          </div>-->
-<!--          <i class="fas fa-external-link-alt"></i>-->
-<!--        </a>-->
-<!--        &lt;!&ndash; TODO: Add more related works or remove extra items &ndash;&gt;-->
-<!--        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">-->
-<!--          <div class="work-info">-->
-<!--            <h5>Paper Title 2</h5>-->
-<!--            <p>Brief description of the work and its main contribution.</p>-->
-<!--            <span class="work-venue">Conference/Journal 2023</span>-->
-<!--          </div>-->
-<!--          <i class="fas fa-external-link-alt"></i>-->
-<!--        </a>-->
-<!--        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">-->
-<!--          <div class="work-info">-->
-<!--            <h5>Paper Title 3</h5>-->
-<!--            <p>Brief description of the work and its main contribution.</p>-->
-<!--            <span class="work-venue">Conference/Journal 2023</span>-->
-<!--          </div>-->
-<!--          <i class="fas fa-external-link-alt"></i>-->
-<!--        </a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
@@ -322,7 +274,7 @@
       <!-- TODO: Replace with your teaser video -->
       <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
         <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
+        <source src="static/videos/Video.mp4" type="video/mp4">
       </video>
 <!--        <img src="static/images/teaser.png">-->
       <!-- TODO: Replace with your video description -->
@@ -332,27 +284,7 @@
     </div>
   </div>
 </section>
-<!--<section class="hero is-small is-light">-->
-<!--  <div class="hero-body">-->
-<!--    <div class="container has-text-centered">-->
 
-<!--&lt;!&ndash;      <h2 class="title is-3">Teaser</h2>&ndash;&gt;-->
-
-<!--      <figure style="display: inline-block; max-width: 80%;">-->
-<!--        <img src="static/images/teaser.jpg"-->
-<!--             alt="Calibration accuracy results"-->
-<!--             loading="lazy"-->
-<!--             style="width: 100%; height: auto;"/>-->
-<!--        <figcaption class="has-text-grey is-size-6" style="margin-top: 0.5em;">-->
-<!--NLiPsCalib, a new visuotactile sensor calibration pipeline that requires no specialized devices.-->
-<!--    It leverages casual presses with simple daily objects, followed by  near-light photometric stereo to obtain accurate geometries for building the calibration dataset.-->
-<!--    This dataset further enables training a neural network for real-time normal inference.        </figcaption>-->
-<!--      </figure>-->
-
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-<!-- End teaser video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -373,6 +305,8 @@
 </section>
 <!-- End paper abstract -->
 
+
+<!-- Pipeline -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container has-text-centered">
@@ -424,25 +358,25 @@
       <!-- 用包裹容器来居中和限宽，不改 carousel 本体 -->
       <div style="max-width: 90%; margin: 0 auto;">
         <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <img src="static/images/calib1.png" alt="First research result visualization" loading="lazy"/>
-            <h2 class="subtitle has-text-centered">Driver</h2>
-          </div>
-          <div class="item">
-              <img src="static/images/calib2.png" alt="First research result visualization" loading="lazy"/>
-              <h2 class="subtitle has-text-centered">Screw</h2>
-          </div>
-          <div class="item">
-              <img src="static/images/calib3.png" alt="First research result visualization" loading="lazy"/>
-              <h2 class="subtitle has-text-centered">Circuit Board</h2>
-          </div>
-          <div class="item">
-              <img src="static/images/calib4.png" alt="First research result visualization" loading="lazy"/>
-              <h2 class="subtitle has-text-centered">Sphere Probe</h2>
-          </div>
             <div class="item">
                 <img src="static/images/calib5.png" alt="First research result visualization" loading="lazy"/>
                 <h2 class="subtitle has-text-centered">ICRA ICON</h2>
+            </div>
+            <div class="item">
+            <img src="static/images/calib1.png" alt="First research result visualization" loading="lazy"/>
+            <h2 class="subtitle has-text-centered">Driver</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/calib2.png" alt="First research result visualization" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Screw</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/calib3.png" alt="First research result visualization" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Circuit Board</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/calib4.png" alt="First research result visualization" loading="lazy"/>
+              <h2 class="subtitle has-text-centered">Sphere Probe</h2>
             </div>
         </div>
       </div>
@@ -454,7 +388,7 @@
 
 <!-- End image carousel -->
 
-
+<!-- Calibration Accuracy -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container has-text-centered">
@@ -475,25 +409,58 @@
   </div>
 </section>
 
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container has-text-centered">
 
-      <h2 class="title is-3">Real-Time Reconstruct Results</h2>
+<!-- Real-Time Reconstruct Results -->
+    <section class="hero is-small is-light">
+      <div class="hero-body">
+        <div class="container has-text-centered">
 
-      <figure style="display: inline-block; max-width: 80%;">
-        <img src="static/images/real_time.jpg"
-             alt="Calibration accuracy results"
-             loading="lazy"
-             style="width: 100%; height: auto;"/>
-        <figcaption class="has-text-grey is-size-6" style="margin-top: 0.5em;">
-Samples from the NLiPsNet training dataset. Each row shows one pressing instance: the input probe image, its sensor location, NLiPs-recovered normals, and the resulting 3D shape.
-        </figcaption>
-      </figure>
+          <h2 class="title is-3">Real-Time Reconstruct Results</h2>
 
-    </div>
-  </div>
-</section>
+          <!-- 四列视频 -->
+          <div class="columns is-centered is-multiline" style="margin-bottom: 1.5em;">
+            <div class="column is-one-quarter">
+              <video controls autoplay loop muted style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                <source src="static/videos/real1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-one-quarter">
+              <video controls autoplay loop muted style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                <source src="static/videos/real2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-one-quarter">
+              <video controls autoplay loop muted style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                <source src="static/videos/real3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-one-quarter">
+              <video controls autoplay loop muted style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                <source src="static/videos/real4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+          <!-- 大图 -->
+          <figure style="display: inline-block; max-width: 80%;">
+            <img src="static/images/real_time.jpg"
+                 alt="Calibration accuracy results"
+                 loading="lazy"
+                 style="width: 100%; height: auto;"/>
+            <figcaption class="has-text-grey is-size-6" style="margin-top: 0.5em;">
+              Samples from the NLiPsNet training dataset. Each row shows one pressing instance: the input probe image, its sensor location, NLiPs-recovered normals, and the resulting 3D shape.
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+
 
 
 
